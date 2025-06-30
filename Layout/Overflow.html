@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow</title>
+
+    <style>
+        body
+        {
+            margin-bottom: 500px;
+        }
+
+        .container
+        {
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255,0,0,.5);
+        }
+
+        .item
+        {
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+
+            /* width: fit-content; */
+        }
+
+        .fit-content .item
+        {
+            width: fit-content;
+        }
+
+        .min-content .item
+        {
+            width: min-content;
+        }
+
+        .max-content .item
+        {
+            width: max-content;
+        }
+
+        .overflow-hidden
+        {
+            overflow: hidden;
+        }
+
+        .overflow-scroll
+        {
+            overflow: scroll;
+        }
+
+        .overflow-auto
+        {
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fit-content overflow-hidden">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nesciunt!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, repellat. Accusamus consequatur placeat, et aut, maiores molestias eligendi a eius soluta omnis tenetur esse labore!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit excepturi repellat, rem saepe deserunt voluptatem adipisci ab quas unde doloribus reiciendis eius quis vero provident minima soluta reprehenderit autem. Perferendis porro, suscipit, animi repellendus molestias sed provident maiores, vel minima quia modi voluptate ut! Dolorum obcaecati quae, nisi magnam ipsa rem voluptatum! Maxime, expedita dolor magni quia sed excepturi deleniti laborum quos voluptatum maiores sint recusandae cumque ea. Consequuntur.</div>
+    </div>
+
+    <div class="container min-content overflow-scroll">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nesciunt!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, repellat. Accusamus consequatur placeat, et aut, maiores molestias eligendi a eius soluta omnis tenetur esse labore!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit excepturi repellat, rem saepe deserunt voluptatem adipisci ab quas unde doloribus reiciendis eius quis vero provident minima soluta reprehenderit autem. Perferendis porro, suscipit, animi repellendus molestias sed provident maiores, vel minima quia modi voluptate ut! Dolorum obcaecati quae, nisi magnam ipsa rem voluptatum! Maxime, expedita dolor magni quia sed excepturi deleniti laborum quos voluptatum maiores sint recusandae cumque ea. Consequuntur.</div>
+    </div>
+
+    <div class="container max-content overflow-auto">
+        <div class="item">lorem</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nesciunt!</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, repellat. Accusamus consequatur placeat, et aut, maiores molestias eligendi a eius soluta omnis tenetur esse labore!</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit excepturi repellat, rem saepe deserunt voluptatem adipisci ab quas unde doloribus reiciendis eius quis vero provident minima soluta reprehenderit autem. Perferendis porro, suscipit, animi repellendus molestias sed provident maiores, vel minima quia modi voluptate ut! Dolorum obcaecati quae, nisi magnam ipsa rem voluptatum! Maxime, expedita dolor magni quia sed excepturi deleniti laborum quos voluptatum maiores sint recusandae cumque ea. Consequuntur.</div>
+    </div>
+</body>
+</html>
