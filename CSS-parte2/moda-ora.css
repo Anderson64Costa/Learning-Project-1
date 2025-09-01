@@ -1,0 +1,164 @@
+@font-face
+{
+    font-family: viaoda;
+    src: url(/font/Viaoda_libre/ViaodaLibre-Regular.ttf) format("truetype");
+}
+
+@font-face
+{
+    font-family: roboto;
+    src: url(/font/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: viaoda, sans-serif;
+
+    --text_color: #425564;
+}
+
+.header
+{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #162028;
+}
+
+.header-title
+{
+    font-size: 4em;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav-ul
+{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 30px;
+
+    font-size: 2em;
+    color: var(--text_color);
+
+    list-style-type: none;
+}
+
+.header-img
+{
+    /* height: 896px; */
+    height: 50vw;
+
+    background-image: url(/ModaOra/topo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size:contain;
+}
+
+.main-section
+{
+    margin: 128px 240px;
+    padding: 0;
+
+    text-align: center;
+}
+
+.main-section-title
+{
+    font-size: 4.6em;
+}
+
+.list-section
+{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+    /* margin: 0 480px; */
+    padding: 16px;
+
+    /* border: 5px solid var(--text_color); */
+    /* border-radius: 10px; */
+    /* background-color: #678194; */
+
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.list-section h3
+{
+    margin: 0px;
+    padding: 0;
+
+    text-align: center;
+    font-size: 3.2em;
+}
+
+.list-section p
+{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.main-section-p
+{
+    font-size: 2.4em;
+}
+
+.second-section
+{
+    width: auto;
+    /* margin: 128px 128px 0 128px; */
+    padding: 128px 256px;
+
+    color: white;
+
+    background-image: url(/ModaOra/bg_detalhe.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-section h3
+{
+    /* margin: 0 0 64px 0; */
+    padding: 0;
+
+    font-size: 4.4em;
+    width: 50%;
+}
+
+.second-section p
+{
+    margin: 0;
+    padding: 0;
+    
+    font-size: 2.6em;
+    width: 50%;
+}
+
+.main-footer
+{
+    display: block;
+    /* margin: 0 128px; */
+    padding: 1px;
+
+    text-align: center;
+    font-size: 2.4em;
+
+    color: var(--text_color);
+    background-color: black;
+}
