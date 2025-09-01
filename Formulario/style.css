@@ -1,0 +1,98 @@
+html
+{
+    font-size: 62.5%;
+    font-family: Helvetica, Arial, sans-serif;
+
+    background-color: #95a5a6;
+    /* min-height: 100vh; */
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form
+{
+    width: 35rem;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0.3rem 0.3rem 1rem #aaa;
+    padding: 1.6rem;
+}
+
+fieldset
+{
+    border: none;
+    padding: 0;
+}
+
+legend
+{
+    text-align: center;
+    padding: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #454e4f;
+}
+
+label
+{
+    margin-bottom: .25rem;
+}
+
+input
+{
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+    border: .1rem solid #bbb;
+    font-size: 1.6rem;
+}
+
+input, label
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-size: 2rem;
+}
+
+.btn
+{
+    width: fit-content;
+    margin-left: auto;
+    color: white;
+    background-color: rgb(58, 58, 71);
+    border: 1px solid rgb(35, 35, 44);
+    cursor: pointer;
+}
+
+.btn2
+{
+    width: fit-content;
+
+    color: white;
+    background-color: rgb(58, 58, 71);
+    border: 1px solid rgb(35, 35, 44);
+    cursor: pointer;
+}
+
+.actions
+{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.btn--apagar
+{
+    background-color: rgb(153, 12, 12);
+    border: 1px solid rgb(77, 8, 8);
+    cursor: pointer;
+}

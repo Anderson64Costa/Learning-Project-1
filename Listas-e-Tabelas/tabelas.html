@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelas</title>
+
+    <style>
+        body
+        {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        table
+        {
+            border: 1px solid black;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+            border-collapse: collapse;
+        }
+
+        th
+        {
+            border: 1px solid black;
+            background-color: rgb(190,190,155);
+            padding: 16px;
+        }
+
+        td
+        {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela de preços de cursos</caption>
+
+        <thead>
+            <tr>
+                <th>Área</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Desing</td>
+                <td>Investimento</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td>Photoshop</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td>Illustrator</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Developement</td>
+                <td>HTML</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td>Javascript</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td>PHP</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Valores sujeitos a alteração sem aviso prévio</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <h1>Pokemon iniciais</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Gen.1</th>
+                <th>Gen.2</th>
+                <th>Gen.3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Charmander</td> <td>Cindaquil</td> <td>Torchik</td>
+            </tr>
+
+            <tr>
+                <td>Squirtle</td> <td>Totodile</td> <td>Mudkip</td>
+            </tr>
+
+            <tr>
+                <td>Bulbasaur</td> <td>Chicorita</td> <td>Treeko</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

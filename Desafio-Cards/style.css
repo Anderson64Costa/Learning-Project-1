@@ -1,0 +1,77 @@
+body
+{
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+
+    background-color: #ccc;
+    background-image: url(Recursos/imagens/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main
+{
+    text-align: center;
+}
+
+.main-title
+{
+    margin-top: 200px;
+
+    font-size: 64px;
+
+    text-transform: uppercase;
+
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.main-subtitle
+{
+    display: inline;
+    font-size: 18px;
+    font-weight: 100;
+
+    padding: 16px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    border-bottom: 2px solid white;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 32px;
+}
+
+.cards-list
+{
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 8px;
+    list-style-type: none;
+
+    background-color: white;
+}
+
+.cards-list div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-list p
+{
+    margin: 0;
+    padding: 10px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #333;
+}
